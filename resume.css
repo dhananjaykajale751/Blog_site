@@ -1,0 +1,111 @@
+body
+{
+
+}
+#body-header
+{
+height: 65vh;
+background-image: url(file:///C:/Users/dhanu/OneDrive/Desktop/space-facebook.jpg);
+background-size: cover;
+opacity: 1;
+
+}
+
+.horizontal
+{
+list-style: none;
+text-align: center;
+}
+
+.horizontal li
+{
+display: inline-block;
+
+margin: 8px;
+
+}
+.horizontal li a{
+color: white;
+font-style: bold;
+text-decoration: none;
+transition: color 0.5s, border-bottom 0.5s;
+}
+.horizontal li a:hover
+{
+color: greenyellow;
+font-style: bold;
+border-bottom: 3px solid greenyellow;
+}
+h1
+{
+color: white;
+text-align: center;
+font-size: 80px;
+
+
+
+}
+#logo
+{
+width: 50px;
+height: 50px;
+
+}
+
+#logo:hover
+{
+border-bottom: 2px solid white;
+border-right: 2px solid white;
+
+
+
+}
+
+/*ul li a img 
+{
+border-radius: 50%;
+}*/
+
+#brand 
+{
+margin-top: -50px;
+}
+#my-image
+{
+
+height: 12rem;
+
+width: 12rem;
+margin: auto;
+
+
+}
+#my-image img 
+{
+	height: 100%;
+	width: 100%;
+	margin-top: -70px;
+border-radius: 50%;
+}
+
+#About
+{
+
+height: auto;
+width: auto;
+margin-left: 30px;
+font-size: 25px;
+
+}
+
+#About h2:hover
+{
+color: red;
+text-decoration: underline;
+}
+
+
+#decor 
+{
+border: 5px solid black;
+}
